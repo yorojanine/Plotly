@@ -1,0 +1,27 @@
+body {
+    color: #1b1818;
+  }
+
+
+  .jumbotron {
+    background-image: url("https://www.nicepng.com/png/full/288-2889388_banner-header-team2x-graphic-design-banner-header.png");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+
+.text-type {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bk-color{
+    background-color: burlywood;
+}
+
+.bubble-chart{
+    margin-top: 15px;
+}
+
+.gauge-chart{
+    margin-left: 15px;
+}
