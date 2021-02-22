@@ -98,7 +98,8 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
-      width: 500
+      width: 500,
+      height: 400
     };
 
     // 10. Use Plotly to plot the data with the layout. 
