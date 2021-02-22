@@ -5,9 +5,10 @@ body {
 
   .jumbotron {
     background-image: url("https://www.nicepng.com/png/full/288-2889388_banner-header-team2x-graphic-design-banner-header.png");
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
   }
+
 
 
 .text-type {
@@ -15,7 +16,7 @@ body {
 }
 
 .bk-color{
-    background-color: burlywood;
+    background-color: rgb(245, 242, 239);
 }
 
 .bubble-chart{
@@ -23,5 +24,11 @@ body {
 }
 
 .gauge-chart{
-    margin-left: 15px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
+
+.border {
+    border: 15px solid green;
+  }

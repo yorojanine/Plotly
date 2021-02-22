@@ -91,7 +91,7 @@ function buildCharts(sample) {
       text: otu_labels.slice(0,10).reverse(),
       y: yticks,
       type: "bar",
-      orientation: "h"
+      orientation: "h",
     };
 
     var barData = [trace];
@@ -113,7 +113,7 @@ function buildCharts(sample) {
       text: otu_labels,
       mode: "markers",
       marker: {size: sample_values, color: otu_ids, 
-        colorscale: "Earth"},
+        colorscale: "Portland"},
         //https://plotly.com/javascript/colorscales/
       type: "bubble"
     };
@@ -126,7 +126,7 @@ function buildCharts(sample) {
       xaxis: { title: 'OTU ID' },
       //autosize: true,
       height: 500,
-      width: 1200,
+      width: 1225,
       hovermode: "closest"
     };
 
@@ -162,7 +162,7 @@ function buildCharts(sample) {
     var gaugeLayout = { 
       width: 500,
       height: 400,
-     margin: { t: 25, r: 25, l: 25, b: 25 },
+     //margin: { t: 25, r: 25, l: 25, b: 25 },
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
