@@ -16,5 +16,5 @@ Customizations have been added to the page (differing from the original module i
 4) Changed the background color of the webpage
 5) Changed the colorscale of the bubble chart to "Portland"
 
-Orignal for reference:
+<b>Orignal for reference:</b><br>
 ![](resources/Reference.PNG)
