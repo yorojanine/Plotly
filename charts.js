@@ -115,6 +115,7 @@ function buildCharts(sample) {
       marker: {size: sample_values, color: otu_ids, 
         colorscale: "Portland"},
         //https://plotly.com/javascript/colorscales/
+        //originally Earth -- changed to Portland for customization
       type: "bubble"
     };
     
